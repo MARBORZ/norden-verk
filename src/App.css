@@ -1,0 +1,183 @@
+/* ─── Gold shimmer animation ─── */
+@keyframes gold-shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.hero-badge-line {
+  background: linear-gradient(
+    90deg,
+    #C4A265 0%,
+    #F0D898 45%,
+    #C4A265 55%,
+    #C4A265 100%
+  ) !important;
+  background-size: 200% auto !important;
+  animation: gold-shimmer 3.5s linear infinite;
+}
+
+/* Разделительные линии между секциями */
+.section-divider {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #C4A265 20%,
+    #EDD98A 50%,
+    #C4A265 80%,
+    transparent 100%
+  );
+  opacity: 0.5;
+}
+
+/* ─── Hero ─── */
+.hero-section {
+  height: 780px;
+}
+
+.hero-cta {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-top: 32px;
+}
+
+/* ─── Header ─── */
+@media (max-width: 768px) {
+  header {
+    padding: 0 20px !important;
+  }
+  .header-nav-desktop {
+    display: none !important;
+  }
+  .header-burger {
+    display: flex !important;
+  }
+}
+
+/* ─── Hero Mobile ─── */
+@media (max-width: 640px) {
+  .hero-section {
+    height: 100svh;
+    min-height: 600px;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 24px;
+  }
+
+  .hero-btn-primary {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-sub br {
+    display: none;
+  }
+
+  /* ScrollHint скрываем на мобилке */
+  .hero-scroll-hint {
+    display: none;
+  }
+}
+
+/* ─── Kolleksjonen ─── */
+@media (max-width: 768px) {
+  #kolleksjonen {
+    padding: 60px 20px !important;
+    gap: 40px !important;
+  }
+}
+
+/* ─── Materialer ─── */
+@media (max-width: 768px) {
+  #materialer {
+    padding: 60px 20px 80px !important;
+  }
+
+  #materialer .mat-grid {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+
+  #materialer .mat-grid > div:first-child {
+    width: 100% !important;
+    height: 260px !important;
+    flex-shrink: unset !important;
+  }
+
+  #materialer .mat-grid > div:last-child {
+    flex-direction: row !important;
+    height: 180px !important;
+  }
+}
+
+/* ─── Verkstedet ─── */
+@media (max-width: 900px) {
+  #verkstedet {
+    flex-direction: column !important;
+    min-height: unset !important;
+  }
+
+  #verkstedet > div:first-child {
+    width: 100% !important;
+    height: 320px !important;
+    flex-shrink: unset !important;
+  }
+
+  #verkstedet > div:last-child {
+    padding: 48px 24px !important;
+  }
+
+  #verkstedet h2 {
+    font-size: clamp(36px, 8vw, 60px) !important;
+  }
+
+  #verkstedet p {
+    max-width: 100% !important;
+  }
+}
+
+/* ─── FooterCTA ─── */
+@media (max-width: 768px) {
+  #kontakt {
+    padding: 80px 24px !important;
+  }
+
+  #kontakt h2 {
+    font-size: clamp(44px, 12vw, 96px) !important;
+    width: 100% !important;
+  }
+}
+
+/* ─── Footer ─── */
+@media (max-width: 768px) {
+  footer > div:first-child {
+    padding: 40px 20px !important;
+    flex-direction: column !important;
+    gap: 32px !important;
+  }
+
+  footer > div:last-child {
+    padding: 20px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+  }
+}
+
+/* ─── Cursor: скрыть на touch-устройствах ─── */
+@media (hover: none) {
+  [data-custom-cursor] {
+    display: none !important;
+  }
+  * {
+    cursor: auto !important;
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun add:*)",
+      "Bash(bun run:*)",
+      "Bash(bun remove:*)",
+      "Bash(ls -lah c:/git/personal/norden-verk/*.pen)",
+      "Bash(grep -E \"\\\\.\\(pen|fig|psd\\)$\")"
+    ]
+  }
+}

@@ -1,0 +1,1269 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "NaXMY",
+      "x": 900,
+      "y": 0,
+      "name": "NORDEN VERK — Landing Page",
+      "width": 1440,
+      "fill": "#FAF9F6",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "kQHkQ",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#FAF9F6",
+          "padding": [
+            0,
+            60
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "YoNb1",
+              "name": "logoText",
+              "fill": "#2A2826",
+              "content": "NORDEN VERK",
+              "fontFamily": "Barlow Condensed",
+              "fontSize": 22,
+              "fontWeight": "600",
+              "letterSpacing": 6
+            },
+            {
+              "type": "frame",
+              "id": "jk2dw",
+              "name": "navLinks",
+              "gap": 48,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rhnvU",
+                  "name": "link1",
+                  "fill": "#2A2826",
+                  "content": "Kolleksjonen",
+                  "fontFamily": "Barlow",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "1H492",
+                  "name": "link2",
+                  "fill": "#2A2826",
+                  "content": "Materialer",
+                  "fontFamily": "Barlow",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "RsUnE",
+                  "name": "link3",
+                  "fill": "#2A2826",
+                  "content": "Verkstedet",
+                  "fontFamily": "Barlow",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "bMvlA",
+                  "name": "link4",
+                  "fill": "#2A2826",
+                  "content": "Kontakt",
+                  "fontFamily": "Barlow",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "SAcNc",
+          "name": "navDivider",
+          "opacity": 0.3,
+          "fill": "#A39171",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "RDhOk",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 780,
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "tqZQP",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "HeroBg",
+              "metadata": {
+                "type": "unsplash",
+                "username": "motty_r",
+                "link": "https://unsplash.com/@motty_r",
+                "author": "Tommy Ruppel"
+              },
+              "width": 1440,
+              "height": 780,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1549738102-ef918f248ea9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNTU2OTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "8pL1H",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "Overlay",
+              "opacity": 0.18,
+              "width": 1440,
+              "height": 780,
+              "fill": "#FAF9F6"
+            },
+            {
+              "type": "frame",
+              "id": "1Ztob",
+              "name": "HeroContent",
+              "width": 860,
+              "layout": "vertical",
+              "gap": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6oCgy",
+                  "name": "Badge",
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "jgiBr",
+                      "name": "heroBadgeRect",
+                      "fill": "#A39171",
+                      "width": 32,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "OM2gU",
+                      "name": "heroBadgeText",
+                      "fill": "#A39171",
+                      "content": "Sunnmøre / Oslo — Est. 2009",
+                      "fontFamily": "Barlow",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "inZ4w",
+                      "name": "heroBadgeRect2",
+                      "fill": "#A39171",
+                      "width": 32,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "N12rW",
+                  "name": "heroH1",
+                  "fill": "#FAF9F6",
+                  "textGrowth": "fixed-width",
+                  "width": 860,
+                  "content": "Håndverk\nsom varer.",
+                  "lineHeight": 0.9,
+                  "textAlign": "center",
+                  "fontFamily": "Barlow Condensed",
+                  "fontSize": 120,
+                  "fontWeight": "normal",
+                  "letterSpacing": -2,
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "0Bh1u",
+                  "name": "heroSub",
+                  "opacity": 0.9,
+                  "fill": "#FAF9F6",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Eksklusive møbler skapt med respekt for naturen\nog skandinavisk designtradisjon.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Barlow",
+                  "fontSize": 17,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "WxQmz",
+                  "name": "HeroCTA",
+                  "gap": 40,
+                  "padding": [
+                    32,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6wtXa",
+                      "name": "CTAButton",
+                      "fill": "#2A2826",
+                      "padding": [
+                        16,
+                        40
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pFw1O",
+                          "name": "ctaBtnTxt",
+                          "fill": "#FAF9F6",
+                          "content": "Se kolleksjonen",
+                          "fontFamily": "Barlow",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "letterSpacing": 3
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FuIQQ",
+                      "name": "CTALink",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "yEuUf",
+                          "name": "ctaLinkLine",
+                          "fill": "#FAF9F6",
+                          "width": 28,
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "0Eyba",
+                          "name": "ctaLinkTxt",
+                          "fill": "#FAF9F6",
+                          "content": "Bestill konsultasjon",
+                          "fontFamily": "Barlow",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wTr3w",
+              "layoutPosition": "absolute",
+              "x": 712,
+              "y": 704,
+              "name": "ScrollHint",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "4CODy",
+                  "name": "scrollLine",
+                  "opacity": 0.5,
+                  "fill": "#FAF9F6",
+                  "width": 1,
+                  "height": 40
+                },
+                {
+                  "type": "text",
+                  "id": "4CiU0",
+                  "name": "scrollTxt",
+                  "opacity": 0.5,
+                  "fill": "#FAF9F6",
+                  "content": "SCROLL",
+                  "fontFamily": "Barlow",
+                  "fontSize": 9,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bAJ1t",
+          "name": "Kolleksjonen",
+          "width": "fill_container",
+          "fill": "#FAF9F6",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            100,
+            60
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "csjC3",
+              "name": "KollHeader",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LfNJp",
+                  "name": "kollTitleCol",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MbR1K",
+                      "name": "kollEyebrow",
+                      "fill": "#A39171",
+                      "content": "02 — KOLLEKSJONEN",
+                      "fontFamily": "Barlow",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "wEZ8n",
+                      "name": "kollH2",
+                      "fill": "#2A2826",
+                      "textGrowth": "fixed-width",
+                      "width": 500,
+                      "content": "Hvert stykke\ner unikt.",
+                      "lineHeight": 0.95,
+                      "fontFamily": "Barlow Condensed",
+                      "fontSize": 72,
+                      "fontWeight": "normal",
+                      "letterSpacing": -1,
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "5lwVb",
+                  "name": "kollDesc",
+                  "opacity": 0.6,
+                  "fill": "#2A2826",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Vi velger kun det fineste treet\nfra bærekraftige skoger.",
+                  "lineHeight": 1.8,
+                  "textAlignVertical": "bottom",
+                  "fontFamily": "Barlow",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iQ2To",
+              "name": "KollGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8cFXL",
+                  "name": "Card-EikStol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vaROI",
+                      "name": "Card1Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "justmee_project",
+                        "link": "https://unsplash.com/@justmee_project",
+                        "author": "Justmee Project"
+                      },
+                      "width": "fill_container",
+                      "height": 500,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1712899979292-79209cbf3745?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNTU3MzN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8piV4",
+                      "name": "Card1Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        24,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3myQC",
+                          "name": "card1Label",
+                          "fill": "#A39171",
+                          "content": "EIK STOL №04",
+                          "fontFamily": "Barlow",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 4
+                        },
+                        {
+                          "type": "text",
+                          "id": "ow0eC",
+                          "name": "card1Title",
+                          "fill": "#2A2826",
+                          "content": "Eik Stol",
+                          "fontFamily": "Barlow Condensed",
+                          "fontSize": 32,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D1HS4",
+                          "name": "card1Price",
+                          "opacity": 0.5,
+                          "fill": "#2A2826",
+                          "content": "fra kr 18 900",
+                          "fontFamily": "Barlow",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2UBfV",
+                  "name": "Card-ValnottBord",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "76bV0",
+                      "name": "Card2Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "___atmos",
+                        "link": "https://unsplash.com/@___atmos",
+                        "author": "Caroline Badran"
+                      },
+                      "width": "fill_container",
+                      "height": 500,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1761330439356-48ccd62f7e49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNTU3Mzd8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iggPs",
+                      "name": "Card2Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        24,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XfrpE",
+                          "name": "card2Label",
+                          "fill": "#A39171",
+                          "content": "VALNØTT BORD",
+                          "fontFamily": "Barlow",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 4
+                        },
+                        {
+                          "type": "text",
+                          "id": "pzzhT",
+                          "name": "card2Title",
+                          "fill": "#2A2826",
+                          "content": "Valnøtt Bord",
+                          "fontFamily": "Barlow Condensed",
+                          "fontSize": 32,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "G7qBw",
+                          "name": "card2Price",
+                          "opacity": 0.5,
+                          "fill": "#2A2826",
+                          "content": "fra kr 42 500",
+                          "fontFamily": "Barlow",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LhSJN",
+                  "name": "Card-SkulpturellHylle",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IPy5K",
+                      "name": "Card3Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "jonathanwolf",
+                        "link": "https://unsplash.com/@jonathanwolf",
+                        "author": "Jonathan Wolf"
+                      },
+                      "width": "fill_container",
+                      "height": 500,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1576069353653-21a2b29e3bc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNTU3NDB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ve4fM",
+                      "name": "Card3Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        24,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gyCY0",
+                          "name": "card3Label",
+                          "fill": "#A39171",
+                          "content": "SKULPTURELL HYLLE",
+                          "fontFamily": "Barlow",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 4
+                        },
+                        {
+                          "type": "text",
+                          "id": "E5DgS",
+                          "name": "card3Title",
+                          "fill": "#2A2826",
+                          "content": "Skulpturell Hylle",
+                          "fontFamily": "Barlow Condensed",
+                          "fontSize": 32,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m37wu",
+                          "name": "card3Price",
+                          "opacity": 0.5,
+                          "fill": "#2A2826",
+                          "content": "fra kr 12 400",
+                          "fontFamily": "Barlow",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "LqoKw",
+          "name": "matDivider",
+          "opacity": 0.2,
+          "fill": "#A39171",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "8VwK2",
+          "name": "Materialer",
+          "width": "fill_container",
+          "fill": "#EAE0CE",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            60,
+            100,
+            60
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "au29v",
+              "name": "matTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cuhxx",
+                  "name": "matTitleCol",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vJ0FI",
+                      "name": "matEyebrow",
+                      "fill": "#7A5233",
+                      "content": "03 — MATERIALER",
+                      "fontFamily": "Barlow",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "Rrn8j",
+                      "name": "matH2",
+                      "fill": "#1A1410",
+                      "textGrowth": "fixed-width",
+                      "width": 540,
+                      "content": "Eik. Lin.\nMessing.",
+                      "lineHeight": 0.92,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 88,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "QCyoK",
+                  "name": "matRightText",
+                  "opacity": 0.55,
+                  "fill": "#1A1410",
+                  "textGrowth": "fixed-width",
+                  "width": 300,
+                  "content": "Vi bruker kun naturlige materialer med sjel — tre som har levd, lin som puster, og messing som eldes med verdighet.",
+                  "lineHeight": 1.8,
+                  "textAlignVertical": "bottom",
+                  "fontFamily": "Barlow",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "Sqpak",
+              "name": "matDivider",
+              "fill": "#C4AA8A",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "MA6Lf",
+              "name": "MatGrid",
+              "width": "fill_container",
+              "height": 580,
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rN3F0",
+                  "name": "MatImg1",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "brett_jordan",
+                    "link": "https://unsplash.com/@brett_jordan",
+                    "author": "Brett Jordan"
+                  },
+                  "width": 650,
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1675767443637-f35f2653b17a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNTU3NTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#B8A06060"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "RMkli",
+                  "name": "rightCol",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OYapm",
+                      "name": "MatImg2",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "micheile",
+                        "link": "https://unsplash.com/@micheile",
+                        "author": "micheile henderson"
+                      },
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1545042746-ec9e5a59b359?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNTU3NTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#B8A06060"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hgv2L",
+                      "name": "MatImg3",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "in_motion",
+                        "link": "https://unsplash.com/@in_motion",
+                        "author": "Khrystyna Liasota"
+                      },
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1737958416936-e81444723295?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNTU3NTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#B8A06060"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jpe0J",
+          "name": "Verkstedet",
+          "width": "fill_container",
+          "height": 680,
+          "fill": "#FAF9F6",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XdvFb",
+              "name": "WorkImg",
+              "metadata": {
+                "type": "unsplash",
+                "username": "anniespratt",
+                "link": "https://unsplash.com/@anniespratt",
+                "author": "Annie Spratt"
+              },
+              "width": 680,
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1766431066283-68e25b20ec27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNTU3NjF8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "V2n6w",
+              "name": "WorkContent",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                80,
+                64
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dCulG",
+                  "name": "workEyebrow",
+                  "fill": "#A39171",
+                  "content": "04 — VERKSTEDET",
+                  "fontFamily": "Barlow",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "rectangle",
+                  "id": "We4iE",
+                  "name": "workDivLine",
+                  "fill": "#A39171",
+                  "width": 40,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "jtMEf",
+                  "name": "workH2",
+                  "fill": "#2A2826",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "Fra skogen\ntil stuen din.",
+                  "lineHeight": 0.95,
+                  "fontFamily": "Barlow Condensed",
+                  "fontSize": 60,
+                  "fontWeight": "normal",
+                  "letterSpacing": -1,
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "3d6Ko",
+                  "name": "workBody",
+                  "opacity": 0.7,
+                  "fill": "#2A2826",
+                  "textGrowth": "fixed-width",
+                  "width": 460,
+                  "content": "Vi forener tradisjonelt håndverk med moderne estetikk. Hvert møbel begynner sin reise i Sunnmøres skoger og fullføres av våre mesterhåndverkere i verkstedet vårt.\n\nVi tar imot et begrenset antall bestillinger hvert år.",
+                  "lineHeight": 1.85,
+                  "fontFamily": "Barlow",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "lBSBa",
+                  "name": "workCta",
+                  "gap": 12,
+                  "padding": [
+                    20,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "tbAlM",
+                      "name": "workCtaLine",
+                      "fill": "#2A2826",
+                      "width": 28,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "3LzMR",
+                      "name": "workCtaTxt",
+                      "fill": "#2A2826",
+                      "content": "Besøk verkstedet",
+                      "fontFamily": "Barlow",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "23yd7",
+          "name": "FooterCTA",
+          "width": "fill_container",
+          "fill": "#2A2826",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            120,
+            60
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "nqaho",
+              "name": "footerCtaH",
+              "fill": "#FAF9F6",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "Bestill din\negne møbel.",
+              "lineHeight": 0.9,
+              "textAlign": "center",
+              "fontFamily": "Barlow Condensed",
+              "fontSize": 96,
+              "fontWeight": "normal",
+              "letterSpacing": -2,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "DuLlg",
+              "name": "footerCtaSub",
+              "opacity": 0.5,
+              "fill": "#FAF9F6",
+              "content": "Vi tar imot konsultasjoner etter avtale. Hvert stykke er skreddersydd.",
+              "lineHeight": 1.7,
+              "textAlign": "center",
+              "fontFamily": "Barlow",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "g3JkU",
+              "name": "footerCtaBtn",
+              "fill": "#FAF9F6",
+              "padding": [
+                18,
+                48
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "InEo4",
+                  "name": "footerCtaBtnTxt",
+                  "fill": "#2A2826",
+                  "content": "Ta kontakt",
+                  "fontFamily": "Barlow",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "FMMaf",
+              "name": "footerOakLine",
+              "opacity": 0.4,
+              "fill": "#A39171",
+              "content": "—",
+              "fontFamily": "Barlow Condensed",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kXg4i",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#2A2826",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Nd0fH",
+              "name": "footerTop",
+              "width": "fill_container",
+              "padding": [
+                48,
+                60
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "L96KR",
+                  "name": "footerLogoCol",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ks1yd",
+                      "name": "footerLogo",
+                      "fill": "#FAF9F6",
+                      "content": "NORDEN VERK",
+                      "fontFamily": "Barlow Condensed",
+                      "fontSize": 20,
+                      "fontWeight": "600",
+                      "letterSpacing": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "sl0kl",
+                      "name": "footerTagline",
+                      "opacity": 0.4,
+                      "fill": "#FAF9F6",
+                      "content": "Møbelatelié. Sunnmøre / Oslo.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Barlow",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gCpwt",
+                  "name": "footerNav1",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2D2UR",
+                      "name": "footerNav1H",
+                      "fill": "#A39171",
+                      "content": "KOLLEKSJON",
+                      "fontFamily": "Barlow",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "4Tha4",
+                      "name": "fn1l1",
+                      "opacity": 0.5,
+                      "fill": "#FAF9F6",
+                      "content": "Eik Stol №04",
+                      "fontFamily": "Barlow",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "CooSs",
+                      "name": "fn1l2",
+                      "opacity": 0.5,
+                      "fill": "#FAF9F6",
+                      "content": "Valnøtt Bord",
+                      "fontFamily": "Barlow",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "NgltK",
+                      "name": "fn1l3",
+                      "opacity": 0.5,
+                      "fill": "#FAF9F6",
+                      "content": "Skulpturell Hylle",
+                      "fontFamily": "Barlow",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0BGc5",
+                  "name": "footerNav2",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yG0wF",
+                      "name": "footerNav2H",
+                      "fill": "#A39171",
+                      "content": "ATELIER",
+                      "fontFamily": "Barlow",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "7WQis",
+                      "name": "fn2l1",
+                      "opacity": 0.5,
+                      "fill": "#FAF9F6",
+                      "content": "Om oss",
+                      "fontFamily": "Barlow",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "b8gl3",
+                      "name": "fn2l2",
+                      "opacity": 0.5,
+                      "fill": "#FAF9F6",
+                      "content": "Verkstedet",
+                      "fontFamily": "Barlow",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "6Zt6X",
+                      "name": "fn2l3",
+                      "opacity": 0.5,
+                      "fill": "#FAF9F6",
+                      "content": "Bestilling",
+                      "fontFamily": "Barlow",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "8t3mI",
+              "name": "footerLine",
+              "opacity": 0.15,
+              "fill": "#A39171",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "pB8gW",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "padding": [
+                24,
+                60
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ipOhO",
+                  "name": "footerCopy",
+                  "opacity": 0.25,
+                  "fill": "#FAF9F6",
+                  "content": "© 2025 Norden Verk AS. Alle rettigheter forbeholdt.",
+                  "fontFamily": "Barlow",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "xRSFl",
+                  "name": "footerLegal",
+                  "opacity": 0.25,
+                  "fill": "#FAF9F6",
+                  "content": "Personvern · Vilkår",
+                  "fontFamily": "Barlow",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
