@@ -1,21 +1,21 @@
 # NORDEN VERK — Håndverk som varer
 
-A landing page for a Scandinavian furniture workshop. Portfolio project showcasing modern React architecture with smooth animations and custom interactions.
+Landing page for a Norwegian furniture workshop. Has a custom hammer cursor and smooth scrolling.
 
 ## 🎨 About
 
-NORDEN VERK is a visually striking landing page for a fictional Norwegian woodworking workshop. Features custom cursor interactions, buttery-smooth scrolling with Lenis, and elegant Framer Motion animations. Built with React 19, TypeScript, and Tailwind CSS 4.
+Fictional woodworking workshop site. Built to practice custom cursor implementation and Lenis smooth scroll. Uses Tailwind CSS 4 and React 19.
 
 ## ✨ Features
 
-- **Custom Hammer Cursor** — Three states: default / hover / click
-- **Lenis Smooth Scroll** — Global context, adaptive to any refresh rate
-- **Framer Motion Animations** — `whileInView` animations, frame-rate independent
-- **Responsive Design** — Mobile from 320px, burger menu ≤768px
+- **Custom Hammer Cursor** — Changes on hover and click
+- **Lenis Smooth Scroll** — Works at any refresh rate
+- **Framer Motion** — Scroll animations
+- **Responsive** — Mobile from 320px, burger menu on small screens
 - **Google Fonts** — Barlow, Barlow Condensed, Playfair Display
-- **Tailwind CSS 4** — Modern utility-first styling
-- **TypeScript** — Full type safety
-- **React 19** — Latest React with compiler optimizations
+- **Tailwind CSS 4** — Utility classes
+- **TypeScript** — Type checking
+- **React 19** — Latest React
 
 ## 🛠️ Tech Stack
 
