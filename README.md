@@ -1,10 +1,25 @@
 # NORDEN VERK — Håndverk som varer
 
-Лендинг для скандинавской мебельной мастерской. Портфолио-проект.
+A landing page for a Scandinavian furniture workshop. Portfolio project showcasing modern React architecture with smooth animations and custom interactions.
 
-## Стек
+## 🎨 About
 
-| Технология | Версия |
+NORDEN VERK is a visually striking landing page for a fictional Norwegian woodworking workshop. Features custom cursor interactions, buttery-smooth scrolling with Lenis, and elegant Framer Motion animations. Built with React 19, TypeScript, and Tailwind CSS 4.
+
+## ✨ Features
+
+- **Custom Hammer Cursor** — Three states: default / hover / click
+- **Lenis Smooth Scroll** — Global context, adaptive to any refresh rate
+- **Framer Motion Animations** — `whileInView` animations, frame-rate independent
+- **Responsive Design** — Mobile from 320px, burger menu ≤768px
+- **Google Fonts** — Barlow, Barlow Condensed, Playfair Display
+- **Tailwind CSS 4** — Modern utility-first styling
+- **TypeScript** — Full type safety
+- **React 19** — Latest React with compiler optimizations
+
+## 🛠️ Tech Stack
+
+| Technology | Version |
 |---|---|
 | React | 19 |
 | TypeScript | 6 |
@@ -14,21 +29,21 @@
 | Tailwind CSS | 4 |
 | Bun | runtime |
 
-## Запуск
+## 🚀 Getting Started
 
 ```bash
 bun install
 bun run dev       # http://localhost:5173
-bun run build     # production сборка
-bun run preview   # предпросмотр сборки
+bun run build     # production build
+bun run preview   # preview build
 ```
 
-## Структура
+## 📁 Structure
 
 ```
 src/
 ├── components/
-│   ├── sections/       # Секции лендинга
+│   ├── sections/       # Landing sections
 │   │   ├── Header.tsx
 │   │   ├── Hero.tsx
 │   │   ├── Kolleksjonen.tsx
@@ -37,19 +52,36 @@ src/
 │   │   ├── FooterCTA.tsx
 │   │   └── Footer.tsx
 │   └── ui/
+│       ├── Button.tsx
 │       └── CustomCursor.tsx
 ├── contexts/
-│   └── LenisContext.tsx  # Smooth scroll провайдер
+│   └── LenisContext.tsx  # Smooth scroll provider
 ├── hooks/
 │   └── useLenis.ts
 └── utils/
     └── animations.ts
 ```
 
-## Особенности
+## 🎯 Key Sections
 
-- **Кастомный курсор-молоток** — три состояния: default / hover / click
-- **Lenis smooth scroll** — глобальный контекст, адаптивен к любой герцовке
-- **Framer Motion** — анимации через `whileInView`, без привязки к 60fps
-- **Адаптив** — мобилки от 320px, бургер-меню на ≤768px
-- **Google Fonts** — Barlow, Barlow Condensed, Playfair Display
+- **Header** — Navigation with burger menu
+- **Hero** — Full-screen hero with animated text
+- **Kolleksjonen** — Product collection showcase
+- **Materialer** — Materials and craftsmanship
+- **Verkstedet** — Workshop story section
+- **FooterCTA** — Call-to-action section
+- **Footer** — Contact information and links
+
+## 🎯 Learning Goals
+
+- React 19 with TypeScript 6
+- Lenis smooth scroll integration
+- Custom cursor implementation
+- Framer Motion animation patterns
+- Tailwind CSS 4 utility patterns
+- Context API for global state
+- Responsive design techniques
+
+---
+
+**Note:** Portfolio project demonstrating modern React, smooth scroll, and custom interactions.
